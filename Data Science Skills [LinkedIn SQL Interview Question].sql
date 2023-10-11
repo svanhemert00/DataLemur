@@ -7,7 +7,7 @@ Assumption:
 There are no duplicates in the candidates table.
 */
 
--- My Answer:
+-- My Solution:
 WITH CTE AS (
   SELECT candidate_id, skill
   FROM candidates
